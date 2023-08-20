@@ -1,0 +1,10 @@
+/*
+	Theme Name: Baremetal
+	Theme URI: https://github.com/Nodws/baremetal
+	Description: A baremetal wordpress theme
+	Author: Nodws
+	Author URI: https:/nodws.com
+	Version: 0.1
+	Text Domain: baremetal
+*/
+body{ font-family:sans-serif } ol, ul {   list-style: none; } img {   max-width: 100%;   height: auto; }
