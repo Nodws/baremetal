@@ -1,3 +1,4 @@
-# baremetal
-Minimalist wordpress theme, only necessary files to build on, no styles, no dependencies no bloat
+# _bareMetal
+A WordPress theme created for simplicity and efficiency. This barebones theme includes only the essential files needed to create a functional  website. With a focus on speed and flexibility, this theme avoids unnecessary styles, dependencies, and bloat, allowing you to build a clean and lightweight website with any framework or library you desire. It provides a blank canvas for customization, empowering you to shape your site's appearance and functionality exactly as you envision, without any clutter or excess. Ideal for developers and designers who want to start from scratch and build a website from the ground up, this theme offers a foundation that prioritizes performance, ease of use, and total creative control
+
 ![](https://github.com/Nodws/baremetal/blob/main/screenshot.png?raw=true)
