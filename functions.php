@@ -49,7 +49,6 @@ if ( ! defined( 'ABSPATH' ) ) {
 			add_filter( 'tiny_mce_plugins', 'disable_emojicons_tinymce' );
 			add_filter( 'wp_calculate_image_srcset', '__return_false' );
 	
-		}
 
 
 		// Disable login modals introduced in WordPress 3.6
