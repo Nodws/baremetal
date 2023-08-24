@@ -15,13 +15,13 @@ if ( ! defined( 'ABSPATH' ) ) {
 		</header>
 	<div class="page-content">
 		<?php
-		while ( have_posts() ) {
-			the_post();
-			$post_link = get_permalink();
+		while ( have_posts() ) {     
+			the_post(); 
+			$post_link = get_permalink();			
 			?>
-			<article class="post">
-				
-				<?php the_title( '<h1 class="entry-title">', '</h1>' ); 
+			<article class="post post-<?php echo $post->ID?>"><?php echo $post->ID?>
+				<h2 class="entry-title"><a href="<?php echo $post_link; ?>"><?php echo $post->post_title;?></h2>
+				<?php 
 			if(has_post_thumbnail( $post ))
 				printf( '<a href="%s">%s</a>', esc_url( $post_link ), get_the_post_thumbnail( $post, 'large' ) );
 				the_excerpt();
